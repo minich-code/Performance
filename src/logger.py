@@ -26,8 +26,8 @@ logging.basicConfig(
 )
 
 
-if __name__ == "__main__":
-    # Create a logger object and log an informational message.
-    logging.basicConfig(level=logging.INFO)  # Set up basic configuration for logging
-    logger = logging.getLogger(__name__)  # Create a logger object
-    logger.info("Logging has started")  # Log an informational message
+# if __name__ == "__main__":
+#     # Create a logger object and log an informational message.
+#     logging.basicConfig(level=logging.INFO)  # Set up basic configuration for logging
+#     logger = logging.getLogger(__name__)  # Create a logger object
+#     logger.info("Logging has started")  # Log an informational message
